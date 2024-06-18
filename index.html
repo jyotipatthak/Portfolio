@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/910931a6cf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1> <a href="#contact" class="logo">Portfolio</a></h1>
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#techskill">Technical Skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, My <span>Name</span> is <span>jyoti kumari</span></br> Full Stack <span>Web</span> Developer</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/web.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm a Full Stack Web Developer who loves creating user-friendly websites. I use React.js for the
+                        front end and Node.js MongoDb and Express.js for Backend and I'm good with databases like
+                        MongoDB and MySQL and also I specialize in building user-friendly websites using tools like
+                        HTML, CSS, and JavaScript</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+                            <li><span>JAVASCRIPT</span><br></li>
+                            <li><span>REACT</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>Front Certificate</span><br></li>
+                            <li><span>Backend Certificate</span><br></li>
+                            <li><span>College Certificate</span><br></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Almabetter Internship :</span><br><span>FULL STACK WEB DEVELOPMENT
+                                    COURSE</span><br>2023-Present</li>
+                            <li><span>IES COLLEGE OF TECHNOLOGY,BHOPAL</span><br>BACHELOR OF ENGINEERING
+                                WITH ELECTRONICS & COMMUNICATION COMPLETED IN 2023</li>
+                            <li><span>HIGHER SECONDARY SCHOOL</span><br>New Sainik Senior Secondary Public School -
+                                Delhi </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------PROJECTS----------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src=""><br>
+                    <div class="layer">
+                        <h3>Crypto-currency</h3><br>
+                        <a href="https://jyotipatthak.github.io/crypto-dashboard/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=""><br>
+                    <div class="layer">
+                        <h3>Flipkart</h3><br>
+                        <a href="https://flipkart-main1.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/youtube.png"><br>
+                    <div class="layer">
+                        <h3>BookMyShow</h3><br>
+                        <a href="https://jbookmyshow.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src=""><br>
+                    <div class="layer">
+                        <h3>My Personal Portfolio </h3><br>
+                        </p>
+                        <a href="https://github.com/jyotipatthak"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+
+        </div>
+
+    </div>
+
+    <!-- ------------------Technical Skill------------------>
+   
+    <div id="techskill">
+        <div class="container">
+            <h1 class="sub-title"> My Technical skills</h1>
+            <div class="tech-list">
+                <div class="tech">
+                    <img src="images/React.png">
+                </div>
+                <div class="tech">
+                    <img src="images/js.png">
+                </div>
+                <div class="tech">
+                    <img src="images/Node.png">
+                </div>
+                <div class="tech">
+                    <img src="images/mongodB.png">
+                </div>
+                <div class="tech">
+                    <img src="images/express.png">
+                </div>
+                <div class="tech">
+                    <img src="images/html logo.png">
+                </div>
+                <div class="tech">
+                    <img src="images/css.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------contact----------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Jyotipathak604@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9643129126</p>
+                    <div class="social-icons">
+                         <a href="https://www.linkedin.com/in/jyoti-pathak-5648712a6/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com//"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © Shahnawazportfolio.com | All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyJEc31sppJsK3EAd5rL8RqbwFVGB81HRgpa8PsJMwoiAPrCwTsTZgSXD5ok0Hkdo628A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
