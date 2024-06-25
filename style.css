@@ -69,6 +69,66 @@
   .header-text h1 span {
     color: #ff004f;
   }
+
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+    font-size: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for icons */
+    padding: 8px;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Adjust hover color as needed */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hover effect for box shadow */
+}
+
+/* Adjustments for font-awesome icons */
+.fa-brands {
+    font-size: 24px;
+}
+
+.fa-solid {
+    font-size: 24px;
+}
+.social-icons {
+  display: flex;
+  gap: 20px; /* Increased gap between icons */
+  margin-top: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #ababab; /* Adjusted icon color */
+  font-size: 28px; /* Increased icon size */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for icons */
+  padding: 10px; /* Increased padding for better touch target */
+  border-radius: 50%; /* Rounded shape for icons */
+}
+
+.social-icons a:hover {
+  color: #ff004f; /* Adjusted hover color */
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+
+ 
   /* ----------------about-------------------- */
   #about {
     padding: 40px 0;
@@ -148,6 +208,8 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    color: #000;
+    text-decoration:solid;
 }
 .work img{
     width: 100%;
